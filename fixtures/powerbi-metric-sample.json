@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-06-06T22:05:00Z",
+  "organization": "Kinetic Gain synthetic analytics estate",
+  "metrics": [
+    {
+      "name": "Net revenue retention",
+      "owner": "Revenue analytics director",
+      "audience": "Board growth committee",
+      "dashboard": "Executive Revenue Cockpit",
+      "businessCriticality": 96,
+      "lineageCompleteness": 61,
+      "refreshSuccessRate": 88,
+      "reconciliationCoverage": 54,
+      "definitionClarity": 68,
+      "ownerSignoffAgeDays": 39,
+      "varianceFromSource": 5.8,
+      "downstreamDashboardCount": 21,
+      "narrative": "NRR is board-critical but source variance and stale signoff make current use risky.",
+      "nextAction": "Reconcile NRR to finance source tables and refresh owner signoff before the next board packet."
+    },
+    {
+      "name": "Pipeline conversion rate",
+      "owner": "GTM operations lead",
+      "audience": "Executive operating committee",
+      "dashboard": "Pipeline Quality Review",
+      "businessCriticality": 84,
+      "lineageCompleteness": 72,
+      "refreshSuccessRate": 92,
+      "reconciliationCoverage": 69,
+      "definitionClarity": 76,
+      "ownerSignoffAgeDays": 24,
+      "varianceFromSource": 3.1,
+      "downstreamDashboardCount": 14,
+      "narrative": "Pipeline conversion is usable but still needs clearer source-to-dashboard reconciliation.",
+      "nextAction": "Attach source query evidence and certify conversion definitions by segment."
+    },
+    {
+      "name": "Gross margin by product",
+      "owner": "Finance systems owner",
+      "audience": "Board finance committee",
+      "dashboard": "Margin Operating Review",
+      "businessCriticality": 91,
+      "lineageCompleteness": 84,
+      "refreshSuccessRate": 96,
+      "reconciliationCoverage": 82,
+      "definitionClarity": 85,
+      "ownerSignoffAgeDays": 12,
+      "varianceFromSource": 1.8,
+      "downstreamDashboardCount": 17,
+      "narrative": "Margin metric has strong evidence posture and only needs watch conditions.",
+      "nextAction": "Keep refresh evidence attached and renew owner signoff before quarter close."
+    },
+    {
+      "name": "Customer health score",
+      "owner": "Customer success analytics",
+      "audience": "Customer retention council",
+      "dashboard": "Retention Command Center",
+      "businessCriticality": 78,
+      "lineageCompleteness": 79,
+      "refreshSuccessRate": 94,
+      "reconciliationCoverage": 77,
+      "definitionClarity": 82,
+      "ownerSignoffAgeDays": 9,
+      "varianceFromSource": 1.2,
+      "downstreamDashboardCount": 9,
+      "narrative": "Customer health is near-certified with current owner signoff and controlled source variance.",
+      "nextAction": "Publish certification evidence and keep segment thresholds documented."
+    }
+  ]
+}
